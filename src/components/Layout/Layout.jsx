@@ -11,6 +11,12 @@ const Layout = () => {
           <Li>
             <StyledLink to="/">HomePage</StyledLink>
           </Li>
+          <Li>
+            <StyledLink to="/catalog">Catalog</StyledLink>
+          </Li>
+          <Li>
+            <StyledLink to="/favorites">Favorites</StyledLink>
+          </Li>
       </Ul>
       </Header>
       <main>
