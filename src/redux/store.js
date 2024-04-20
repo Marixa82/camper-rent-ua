@@ -1,7 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import {
     persistStore,
-    persistReducer,
     FLUSH,
     REHYDRATE,
     PAUSE,
@@ -9,10 +8,12 @@ import {
     PURGE,
     REGISTER,
 } from 'redux-persist';
+import advertsReducer from './advert';
+
 
 export const store = configureStore({
     reducer: {
-        auth: persistReducer(authPersistConfig, authReducer),
+        adverts: advertsReducer,
     },
     middleware: getDefaultMiddleware =>
         getDefaultMiddleware({
