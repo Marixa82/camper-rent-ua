@@ -1,3 +1,3 @@
-export { default as advertsReducer } from './advert-slice';
-export { default as advertsOperations } from './advert-operations';
-export { default as advertsSelector } from './advert-selectors';
+export { default as advertsReducer } from './advertsSlice';
+export { default as advertsOperations } from './advertsOperations'
+export { default as advertsSelector } from './advertsSelectors'

@@ -8,7 +8,7 @@ import {
     PURGE,
     REGISTER,
 } from 'redux-persist';
-import advertsReducer from './advert';
+import { advertsReducer } from './advert';
 
 
 export const store = configureStore({

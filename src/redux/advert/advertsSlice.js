@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import fetchAdverts from './advert-operations';
+import fetchAdverts from './advertsOperations';
 
 const initialState = {
     adverts: {
